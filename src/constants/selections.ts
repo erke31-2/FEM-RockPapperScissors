@@ -16,7 +16,7 @@ export const selections: SelectionInfo[] = [
     icon: rockIcon,
     className:
       "bg-gradient-to-r from-RockG1 to-RockG2",
-    position: "absolute -bottom-16 -right-8"
+    position: "absolute -bottom-16 -right-5"
   },
   {
     name: "paper",
@@ -34,7 +34,7 @@ export const selections: SelectionInfo[] = [
     name: "lizard",
     icon: lizardIcon,
     className: "bg-gradient-to-r from-LizardG1 to-LizardG2",
-    position: "absolute -bottom-16 -left-8"
+    position: "absolute -bottom-16 -left-5"
   },
   {
     name: "spock",
