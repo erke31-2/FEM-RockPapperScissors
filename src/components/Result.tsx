@@ -52,7 +52,7 @@ const Result: React.FC<ResultProps> = ({ userSelected, houseSelected }) => {
 
   const userSelection = (
     <>
-      <div className="w-[140px] h-[140px] md:w-[155px] md:h-[155px] relative">
+      <div className="w-[140px] h-[140px] relative">
         <Button selection={{ name, className, icon }} />
         {winner && winner == "YOU WIN" && (
           <>
@@ -76,7 +76,7 @@ const Result: React.FC<ResultProps> = ({ userSelected, houseSelected }) => {
 
   const houseSelection = (
     <>
-      <div className="w-[140px] h-[140px] md:w-[155px] md:h-[155px] relative">
+      <div className="w-[140px] h-[140px]  relative">
         <Button selection={houseSelectedProps} />
         {winner && winner == "YOU LOST" && (
           <>

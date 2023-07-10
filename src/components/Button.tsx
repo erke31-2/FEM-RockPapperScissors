@@ -24,7 +24,7 @@ const Button: React.FC<ButtonProps> = ({
   };
   return (
     <button
-      className={twMerge("group relative w-[140px] h-[140px] md:w-[155px] md:h-[155px] z-10 flex justify-center items-center rounded-full",`${selection.className} ${selection.position}`)}
+      className={twMerge("group relative w-[140px] h-[140px] z-10 flex justify-center items-center rounded-full",`${selection.className} ${selection.position}`)}
       onClick={handleUserSelected}
     >
       <div className="w-[75%] h-[75%] bg-white rounded-full flex justify-center items-center shadow-lg shadow-DarkText group-hover:shadow-md">
