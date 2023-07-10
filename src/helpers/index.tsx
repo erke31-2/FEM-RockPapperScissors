@@ -1,7 +1,7 @@
 import { selections } from "../constants/selections";
 
 export const getHouseSelected = () => {
-  const index = Math.floor(Math.random() * 5);
+  const index = Math.floor(Math.random() * selections.length);
   return selections[index];
 };
 
