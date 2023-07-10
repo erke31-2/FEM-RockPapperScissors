@@ -16,13 +16,13 @@ export const selections: SelectionInfo[] = [
     icon: rockIcon,
     className:
       "bg-gradient-to-r from-RockG1 to-RockG2",
-    position: "absolute -bottom-16 -right-5"
+    position: "absolute -bottom-16 -right-2"
   },
   {
     name: "paper",
     icon: paperIcon,
     className: "bg-gradient-to-r from-PaperG1 to-PaperG2",
-    position: "absolute -right-20 top-6"
+    position: "absolute -right-8 top-10"
   },
   {
     name: "scissors",
@@ -34,12 +34,12 @@ export const selections: SelectionInfo[] = [
     name: "lizard",
     icon: lizardIcon,
     className: "bg-gradient-to-r from-LizardG1 to-LizardG2",
-    position: "absolute -bottom-16 -left-5"
+    position: "absolute -bottom-16 -left-2"
   },
   {
     name: "spock",
     icon: spockIcon,
     className: "bg-gradient-to-r from-CyanG1 to-CyanG2",
-    position: "absolute -left-20 top-6"
+    position: "absolute -left-8 top-10"
   },
 ];
