@@ -39,7 +39,7 @@ export default {
       },
       animation: {
         radiate: "radiate 4s infinite cubic-bezier(.36, .11, .89, .32)",
-      },
+      }, 
     },
   },
   plugins: [],

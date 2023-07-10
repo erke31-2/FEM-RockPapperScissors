@@ -6,3 +6,9 @@
 .radial {
   background: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
 }
+
+/* @layer utilities {
+  .custom-rock-shadow {
+    box-shadow: 1px 10px 0px -1px #9D1334;
+  }
+} */
