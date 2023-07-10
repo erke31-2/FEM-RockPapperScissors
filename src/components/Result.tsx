@@ -52,7 +52,7 @@ const Result: React.FC<ResultProps> = ({ userSelected, houseSelected }) => {
 
   const userSelection = (
     <>
-      <div className="w-[140px] h-[140px] md:w-[150px] md:h-[150px] relative">
+      <div className="w-[140px] h-[140px] md:w-[155px] md:h-[155px] relative">
         <Button selection={{ name, className, icon }} />
         {winner && winner == "YOU WIN" && (
           <>
@@ -76,11 +76,11 @@ const Result: React.FC<ResultProps> = ({ userSelected, houseSelected }) => {
 
   const houseSelection = (
     <>
-      <div className="w-[150px] h-[150px] md:w-[160px] md:h-[160px] relative">
+      <div className="w-[140px] h-[140px] md:w-[155px] md:h-[155px] relative">
         <Button selection={houseSelectedProps} />
         {winner && winner == "YOU LOST" && (
           <>
-            <div className="absolute bg-gray-600 inset-0 rounded-full animate-radiate w-full h-full -z-10" />
+            <div className="absolute bg-gray-600 inset-0 rounded-full animate-radiate w-full h-full" />
             <div
               className="absolute bg-gray-600 inset-0 rounded-full animate-radiate w-full h-full"
               style={{ animationDelay: "1s" }}
